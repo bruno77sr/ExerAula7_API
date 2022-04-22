@@ -1,0 +1,42 @@
+body{
+    width: 700px;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+
+.fig, .fig2, .fig3, .fig4, .fig5, .fig6, .fig7, .fig8, .fig9, .fig10, .fig11, .fig12 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    padding: 1px;
+    margin: 1px 1px 1px 10px;
+}
+
+.img, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+.fig:hover {
+    
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    box-shadow: black 5px 4px 3px 3px;  
+    
+} 
+.fig6:hover {
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    box-shadow: black 5px 4px 3px 3px;
+    
+
+}
+
+.fig:active {
+    transform: rotateY(180deg);
+}
+
